@@ -56,8 +56,8 @@ A table is also provided listing at each iteration the clusters and their centro
 ## Citations
 
 <ol>
-<li><strong>Lloyd, Stuart P. (1982).</strong> <a href = "https://cs.nyu.edu/~roweis/csc2515-2006/readings/lloyd57.pdf" target="_blank">"Least squares quantization in PCM."</a> <em>IEEE Transactions on Information Theory.</em> 28 (2): 129–137.</li>
-<li><strong>Hamerly, Greg; Elkan, Charles (2002).</strong> <a href = "https://people.csail.mit.edu/tieu/notebook/kmeans/15_p600-hamerly.pdf" target="_blank"> "Alternatives to the k-means algorithm that find better clusterings."</a> <em>Proceedings of the eleventh international conference on Information and knowledge management (CIKM).</em></li>
-<li><strong>Celebi, M. E.; Kingravi, H. A.; Vela, P. A. (2013).</strong> <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0957417412008767" target="_blank">"A comparative study of efficient initialization methods for the k-means clustering algorithm".</a> <em>Expert Systems with Applications.</em> 40 (1): 200–210.</li>
-<li><strong>McNeil, D. R. (1977)</strong> <em>Interactive Data Analysis</em>. New York: Wiley. [Contains US Arrests data adopted from the R datasets.]</li>
-    </ol>
+    <li><strong>Lloyd, Stuart P. (1982).</strong> <a href = "https://cs.nyu.edu/~roweis/csc2515-2006/readings/lloyd57.pdf" target="_blank">"Least squares quantization in PCM."</a> <em>IEEE Transactions on Information Theory.</em> 28 (2): 129–137.</li>
+    <li><strong>Hamerly, Greg; Elkan, Charles (2002).</strong> <a href = "https://people.csail.mit.edu/tieu/notebook/kmeans/15_p600-hamerly.pdf" target="_blank"> "Alternatives to the k-means algorithm that find better clusterings."</a> <em>Proceedings of the eleventh international conference on Information and knowledge management (CIKM).</em></li>
+    <li><strong>Celebi, M. E.; Kingravi, H. A.; Vela, P. A. (2013).</strong> <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0957417412008767" target="_blank">"A comparative study of efficient initialization methods for the k-means clustering algorithm".</a> <em>Expert Systems with Applications.</em> 40 (1): 200–210.</li>
+    <li><strong>McNeil, D. R. (1977)</strong> <em>Interactive Data Analysis</em>. New York: Wiley. [Contains US Arrests data adopted from the R datasets.]</li>
+</ol>
