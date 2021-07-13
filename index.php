@@ -267,9 +267,9 @@
 <div style = "height:100px"></div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="http://localhost/dominicdayta/js/base.js"></script>
-<script src="http://localhost/dominicdayta/js/cluster.js"></script>
-<script src="http://localhost/dominicdayta/data/usarrests.js"></script>
+<script src="js/base.js"></script>
+<script src="js/cluster.js"></script>
+<script src="data/usarrests.js"></script>
 <script>
     var num_clusters = 2;
     var logs = document.getElementById('logs');
