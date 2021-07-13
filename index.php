@@ -173,13 +173,13 @@
     indicated by C<sub>i</sub>, based on which centroid is closest to x<sub>i</sub> by the Euclidean distance.</p>
 
     <center>
-    <img src = "http://localhost/dominicdayta/img/kmeans/assignment.png" height = 30px>
+    <img src = "img/kmeans/assignment.png" height = 30px>
     </center>
     <br/>
     <p>After assignment, we obtain an update of the centroid by averaging across all currently assigned data points:</p>
 
     <center>
-        <img src = "http://localhost/dominicdayta/img/kmeans/update_step.png" height = 50px>
+        <img src = "img/kmeans/update_step.png" height = 50px>
     </center>
     <br/>
 
@@ -187,13 +187,13 @@
         each point and their assigned centroid. To control the range of distances, we obtain their logarithms.</p>
 
     <center>
-        <img src = "http://localhost/dominicdayta/img/kmeans/objective.png" height = 40px>
+        <img src = "img/kmeans/objective.png" height = 40px>
     </center>
     <br/>
 
     <p>Finally, convergence is achieved once the minimum distance per cluster:
 
-    <center><img src = "http://localhost/dominicdayta/img/kmeans/objective2.png" height = 25px></center>
+    <center><img src = "img/kmeans/objective2.png" height = 25px></center>
     <br/>has changed by no more than a set tolerance level. This applet uses a very small tolerance of 1e-100, but we also set a maximum iteration count of 20 in case the algorithm struggles
     to find a local minimum (which Lloyd's Algorithm has been known to experience in many cases). On the US Arrests data set (see citations), we reach convergence within around 2 to 5 iterations only.</p>
 </div>
@@ -210,7 +210,7 @@
     <br/>
     <div class = "row">
         <div class = "col-sm-4">
-            <img src="http://localhost/dominicdayta/img/kmeans/fig_assignments.png" alt="Cluster Assignments" width = 95%>
+            <img src="img/kmeans/fig_assignments.png" alt="Cluster Assignments" width = 95%>
         </div>
         <div class = "col-sm-8 container"><p>The first plot visualizes the data points across its dimensions (only two are allowed for this applet) and colored based on their cluster assignments. Each cluster's nearby neighborhood is displayed as a circular backdrop whose radius is proportional to its number of members. As the user moves through iterations,
             these neighborhoods shift in location across the space and so do the data points change cluster assignments. Because of the way we initialize the clusters, it is possible that in the beginning, clusters may overlap or even be completely inscribed within another cluster. This is immediately corrected as soon the algorithm begins updating.
@@ -220,7 +220,7 @@
     <br/>
     <div class = "row">
         <div class = "col-sm-4">
-            <img src="http://localhost/dominicdayta/img/kmeans/fig_centroids.png" alt="Cluster Centroids" width = 95%>
+            <img src="img/kmeans/fig_centroids.png" alt="Cluster Centroids" width = 95%>
         </div>
         <div class = "col-sm-8 container"><p>The second plot displays only the centroids as they are updated across iterations. The data points are provided in the backdrop to provide an idea of how the centroids are moving, and the members that are being included and excluded at each iteration.
         </p></div>
@@ -229,14 +229,14 @@
     <br/>
     <div class = "row">
         <div class = "col-sm-4">
-            <img src="http://localhost/dominicdayta/img/kmeans/fig_distances.png" alt="Plot of Cluster Distances to Centroids" width = 95%>
+            <img src="img/kmeans/fig_distances.png" alt="Plot of Cluster Distances to Centroids" width = 95%>
         </div>
         <div class = "col-sm-8 container"><p>The third and last plot tracks the improvements in within-group distances as the algorithm updates. Because the objective of the algorithm is to minimize this value to convergence, the algorithm stops and declares convergence when this line flattens out.
         </p></div>
     </div>
     <div class = "row">
         <div class = "col-sm-4">
-            <img src="http://localhost/dominicdayta/img/kmeans/fig_members.png" alt="Cluster Statistics" width = 95%>
+            <img src="img/kmeans/fig_members.png" alt="Cluster Statistics" width = 95%>
         </div>
         <div class = "col-sm-8 container"><p>A table is also provided listing at each iteration the clusters and their centroid coordinates, along with the number of members, and the average distance of each member to the centroid.
         </p></div>
