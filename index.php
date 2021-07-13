@@ -18,32 +18,16 @@
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="http://localhost/dominicdayta/home/">Dominic Dayta</a>
+        <a class="navbar-brand" href="#">KMeans Applet</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="http://localhost/dominicdayta/home/">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Works</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="http://localhost/dominicdayta/works/writings">Writings</a>
-                    <a class="dropdown-item" href="http://localhost/dominicdayta/works/research">Research</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://dominicdayta.com/">Writer's Website</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://localhost/dominicdayta/projects/">Projects</a>
-            </li>
-        </ul>
         </div>
     </div>
     </nav>
+
 <!-- main body page -->
 <div class = "container" style = "padding-top:5%">
 
@@ -66,6 +50,10 @@
 
             <li class="nav-item">
                 <a class="nav-link scroll" href="#cite">Citations</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link scroll" href="#code">Code</a>
             </li>
             
         </ul>
@@ -267,6 +255,13 @@
         <li><strong>Celebi, M. E.; Kingravi, H. A.; Vela, P. A. (2013).</strong> <a href = "https://www.sciencedirect.com/science/article/abs/pii/S0957417412008767" target="_blank">"A comparative study of efficient initialization methods for the k-means clustering algorithm".</a> <em>Expert Systems with Applications.</em> 40 (1): 200–210.</li>
         <li><strong>McNeil, D. R. (1977)</strong> <em>Interactive Data Analysis</em>. New York: Wiley. [Contains US Arrests data adopted from the R datasets.]</li>
     </ol>
+</div>
+
+<!-- code -->
+<div class = "container" style = "padding-top:5%" id = "code">
+    <a name = "code"><h4>Code</h4></a>
+    <br/>
+    <p>The full code to this applet can be viewed on <a href = "https://github.com/dominicdayta/kmeans">Github</a>.</p>
 </div>
 
 <div style = "height:100px"></div>
